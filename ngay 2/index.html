@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hồ sơ</title>
+</head>
+<body>
+    <header>
+        <h1>Nguyễn Thế Vĩnh </h1> 
+    <p>Đang học Frontend Deverloper </p>
+    <nav>
+        <ul>
+            <li><a href="#gioi-thieu">Giới thiệu</a></li>
+            <li><a href="#ky-nang">Kỹ năng</a></li>
+            <li><a href="#lien-he">Liên hệ</a></li>
+        </ul>
+    </nav>   
+</header>
+
+<main>
+    <section id="gioi-thieu">
+        <h2>Giới thiệu</h2>   
+        <img src="https://placehold.co/200x200" alt="Ảnh chân dung của NTV" width="200" height="200">
+        <p>Mình đang làm Wp và tự học FE, mục tiêu đi làm sau 3 tháng.</p>
+    </section>    
+    <section id="ky-nang">
+        <h2>Kỹ năng </h2>
+    <article>
+        <h3>Đang dùng ở công việc</h3>
+        <ul>
+            <li>Wp,PHP cơ bản </li>
+            <li>Dựng VPS,Cấu hình DNS,HTTPS</li>
+        </ul>
+    </article>
+    <article>
+        <h3>Đang học</h3>
+        <ul>
+            <li>HTML,CSS</li>
+            <li>Git,Github</li>
+        </ul>
+    </article>
+ </section>
+    <section id="lien-he">
+        <h2>Liên hệ</h2>
+        <form>
+            <label for="ho-ten">Họ tên</label>
+            <input type="text" id="ho-ten" name="ho-ten" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="chu-de">Chủ để</label>
+            <select name="chu-de" id="chu-de">
+                <option>Hợp tác dự án</option>
+                <option>Tuyển dụng</option>
+                <option>Khác</option>
+            </select>
+
+            <label  for="loi-nhan">Lời nhắn</label>
+            <textarea id="loi-nhan" name="loi-nhan" rows="4"></textarea>
+
+            <button type="submit">Gửi</button>
+        </form>
+
+    </section>
+</main>
+<footer>
+    <p>© 2026 Nguyễn Thế Vĩnh</p>
+</footer>
+</body>
+</html>

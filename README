@@ -1,0 +1,17 @@
+# Nhật ký học Frontend
+
+## Ngày 1 · 12/10/2026 · Tuần 1
+
+**Đã học:**
+- Cài VS Code, cấu hình Git, nối GitHub
+- Vòng làm việc: `git add` → `git commit` → `git push`
+- Tạo nhánh, gộp nhánh: `git switch -c`, `git merge`
+
+**Gặp lỗi gì, sửa thế nào:**
+- Gõ cả dấu `< >` trong địa chỉ repo → phải thay bằng tên thật, xóa luôn dấu ngoặc
+- Có 2 tài khoản GitHub → repo cá nhân dùng NguyenVinh05, push qua HTTPS
+
+**Chưa hiểu rõ:**
+- (ghi câu hỏi của bạn, nếu có)
+
+**Ngày mai:** HTML ngữ nghĩa và form
