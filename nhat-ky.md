@@ -1,5 +1,26 @@
 # Nhật ký học Frontend
 
+## Ngày 3a · 15/10/2026 · Tuần 1
+
+**Đã học:**
+- Selector: tên thẻ, `.class`, `#id`, `nav a` (phần tử bên trong), `a:hover`
+- Specificity: `#id` > `.class` > tên thẻ, bằng điểm thì luật viết sau thắng
+- Box model: `margin` ở ngoài viền, `padding` ở trong viền, `* { box-sizing: border-box; }`
+
+**Đã làm:**
+- Thêm ô số điện thoại `type="tel"` và 2 nút radio vào form (bài tập ngày 2)
+- Tạo `style.css`, gắn vào trang bằng `<link rel="stylesheet">`
+- Viết CSS khối 1–4: nền tối, căn giữa bằng `max-width` + `margin: 0 auto`, menu nằm ngang, kiểu thẻ `.card`
+
+**Gặp lỗi gì, sửa thế nào:**
+- Viết CSS cho `.card` nhưng các thẻ `<article>` chưa có `class="card"`, nên thẻ chưa có nền và viền. CSS chỉ áp dụng khi selector khớp với HTML
+- Để `style.css` trong thư mục `ngay 2` thay vì tạo `ngay-03-css`
+
+**Chưa hiểu rõ:**
+- (ghi câu hỏi của bạn, nếu có)
+
+**Ngày mai (3b):** thêm `class="card"`, CSS cho form, thí nghiệm specificity, soi box model bằng DevTools
+
 ## Ngày 2 · 13/10/2026 · Tuần 1
 
 **Đã học:**
