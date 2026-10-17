@@ -98,6 +98,9 @@ fieldset label{
 }
 
 .btn:hover {
+    background-color: #9ccfff;
+}
+footer{
     padding-top: 24px;
     padding-bottom: 40px;
     color: #888;
