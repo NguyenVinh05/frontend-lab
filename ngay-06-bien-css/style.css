@@ -1,0 +1,120 @@
+:root{
+    /*màu*/
+    --mau-nen: #111;
+    --mau-the: #1c1c1c;
+    --mau-chu: #e8e8e8;
+    --mau-chu-phu: #888;
+    --mau-vien: #333;
+    --mau-chinh: #6cb6ff;
+    --mau-chinh-sang: #9ccfff;
+    --khoang-cach: 1rem;
+    --bo-goc: 8px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: var(--mau-nen);
+    color: var(--mau-chu);
+    font-family: "Segoe UI",Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+header,
+main,
+footer{
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+header{
+    padding-top: 40px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--mau-vien);
+}
+h1{
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 16px;
+}
+
+a{
+    color: var(--mau-chinh);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.card{
+    background-color: var(--mau-the);
+    border: 1px solid var(--mau-vien);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+}
+
+.card h3{
+    margin-top: 0;
+    color: #fff;
+}
+
+label{
+    display: block;
+    margin-top: 12px;
+}
+
+input,
+select,
+textarea {
+width: 100%;
+padding: 10px;
+background-color: var(--mau-the);
+color: var(--mau-chu);
+border: 1px solid var(--mau-vien);
+border-radius: 6px;
+font: inherit; /*dùng cùng font với trang*/
+}
+fieldset{
+    margin-top: 16px;
+    border: 1px solid var(--mau-vien);
+    border-radius: 6px;
+}
+
+fieldset input,
+fieldset label{
+    width: auto;
+    display: inline;
+    margin-right: 6px;
+}
+
+.btn{
+    margin-top: 16px;
+    padding: 10px 24px;
+    background-color: var(--mau-chinh);
+    color: #111;
+    border: 0;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer; /*con trỏ thành bàn tay khi rê vào*/
+}
+
+.btn:hover {
+    background-color: var(--mau-chinh-sang);
+}
+footer{
+    padding-top: 24px;
+    padding-bottom: 40px;
+    color: var(--mau-chu-phu);
+}
