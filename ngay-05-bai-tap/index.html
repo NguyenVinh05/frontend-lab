@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hồ sơ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Nguyễn Thế Vĩnh </h1> 
+    <p>Đang học Frontend Deverloper </p>
+    <nav>
+        <ul>
+            <li><a href="#gioi-thieu">Giới thiệu</a></li>
+            <li><a href="#ky-nang">Kỹ năng</a></li>
+            <li><a href="#lien-he">Liên hệ</a></li>
+            <li><a href="#link">link</a></li>
+        </ul>
+    </nav>   
+</header>
+
+<main>
+    <section id="gioi-thieu">
+        <h2>Giới thiệu</h2>   
+        <img src="https://placehold.co/200x200" alt="Ảnh chân dung của NTV" width="200" height="200">
+        <p>Mình đang làm Wp và tự học FE, mục tiêu đi làm sau 3 tháng.</p>
+    </section>    
+    <section id="ky-nang">
+        <h2>Kỹ năng </h2>
+    <article class="card">
+        <h3>Đang dùng ở công việc</h3>
+        <ul>
+            <li>Wp,PHP cơ bản </li>
+            <li>Dựng VPS,Cấu hình DNS,HTTPS</li>
+        </ul>
+    </article>
+    <article class="card">
+        <h3>Đang học</h3>
+        <ul>
+            <li>HTML,CSS</li>
+            <li>Git,Github</li>
+        </ul>
+    </article>
+ </section>
+    <section id="lien-he">
+        <h2>Liên hệ</h2>
+        <form>
+            <label for="ho-ten">Họ tên</label>
+            <input type="text" id="ho-ten" name="ho-ten" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="sdt">SDT</label>
+            <input type="text" id="sdt" name="sdt" required>
+
+            <label for="chu-de">Chủ để</label>
+            <select name="chu-de" id="chu-de">
+                <option>Hợp tác dự án</option>
+                <option>Tuyển dụng</option>
+                <option>Khác</option>
+            </select>
+            
+ <label for="cach-lien-he">cách liên hệ</label>
+            <select name="cach-lien-he" id="cach-lien-he">
+                <option>Mail</option>
+                <option>SDT</option>
+                <option>Khác</option>
+            </select>
+            <label  for="loi-nhan">Lời nhắn</label>
+            <textarea id="loi-nhan" name="loi-nhan" rows="4"></textarea>
+
+            <label for="sdt">Số điện thoại</label>
+<input type="tel" id="sdt" name="sdt">
+
+<fieldset>
+    <legend>Cách liên hệ</legend>
+    <input type="radio" id="qua-email" name="cach-lien-he" value="email" checked>
+    <label for="qua-email">Email</label>
+    <input type="radio" id="qua-dt" name="cach-lien-he" value="dien-thoai">
+    <label for="qua-dt">Điện thoại</label>
+</fieldset>
+
+
+            <button type="submit" class="btn">Gửi</button>
+        </form>
+
+    </section>
+
+    <section id="link">
+        <article >
+            <h3>Thiệp 20/10 <a href="https://chucmungngayphunuvienam.thiep-20-10.workers.dev/mau/">Nơi đến thiệp hồng</a></h3> 
+        </article>
+        <article class="card">
+            <h3>GitHub <a href="https://www.messenger.com/groupcall/ROOM:8163829116988171/?call_id=4271333098&has_video=true&initialize_video=true&is_e2ee_mandated=true&nonce=wslv98uumssg&referrer_context=zenon_precall&thread_type=15&users_to_ring[0]=100028109751050&server_info_data=GANwcm4oEGhWbURGVnlxSlhvS0VJc3kWlqyz6LK9gB0A&use_joining_context=true&peer_id=100028109751050&locale=vi_VN&av=100038197100598">Nơi đến github</a> </h3>
+        </article>    
+    </section>
+</main>
+<footer>
+    <p>© 2026 Nguyễn Thế Vĩnh</p>
+</footer>
+</body>
+</html>
