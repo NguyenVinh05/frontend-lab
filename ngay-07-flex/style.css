@@ -33,6 +33,11 @@ header{
     padding-top: 40px;
     padding-bottom: 24px;
     border-bottom: 1px solid var(--mau-vien);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
 }
 .ten p{
     margin: 4px 0 0;
@@ -49,10 +54,6 @@ nav ul{
     margin: 0;
 }
 
-nav li{
-    display: inline-block;
-    margin-right: 16px;
-}
 
 a{
     color: var(--mau-chinh);
@@ -125,6 +126,7 @@ footer{
 }
 .hang-the {
     display: flex;
+    flex-wrap: wrap;
     gap: var(--khoang-cach);
 }
 
