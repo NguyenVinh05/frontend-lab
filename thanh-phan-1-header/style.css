@@ -1,0 +1,63 @@
+:root {
+    --mau-nen: #111;
+    --mau-the: #1c1c1c;
+    --mau-chu: #e8e8e8;
+    --mau-chu-phu: #9a9a9a;
+    --mau-vien: #2a2a2a;
+    --mau-chinh: #6cb6ff;
+}
+* { box-sizing: border-box;}
+body{
+    margin: 0;
+    background-color: var(--mau-nen);
+    color: var(--mau-chu);
+    font-family: "Segoe UI",Arial, Helvetica, sans-serif;
+}
+
+.site-header{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px 32px;
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--mau-vien) ;
+}
+.logo{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--mau-chu);
+    text-decoration: none;
+}
+.logo span{
+    color: var(--mau-chinh);
+}
+.menu{
+    display: flex;
+    gap: 4px;
+}
+.menu a{
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: var(--mau-chu-phu);
+    text-decoration: none;
+
+}
+.menu a:hover{
+    background-color: var(--mau-the);
+    color: var(--mau-chu);
+
+}
+.btn{
+    margin-left: auto;
+    padding: 8px 18px;
+    border-radius: 6px;
+    background-color: var(--mau-chinh);
+    color: #111;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.noi-dung{
+    padding: 40px 24px;
+    
+}

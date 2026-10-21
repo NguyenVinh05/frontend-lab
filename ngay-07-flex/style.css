@@ -131,6 +131,6 @@ footer{
 }
 
 .hang-the .card{
-    flex: 1;
+    flex: 1 1 240px ;
     margin-bottom: 0;
 }
